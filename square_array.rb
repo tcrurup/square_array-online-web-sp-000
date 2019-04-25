@@ -4,7 +4,7 @@ require 'pry'
 def square_array(array)
   squared_numbers = []
   array.each do |number|
-    squared_numbersnumber * number
+    squared_numbers << number * number
   end
   binding.pry
 end
